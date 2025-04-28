@@ -14,6 +14,7 @@ public class QuickCheckTest {
 		int p = bus.getPassengerNum();
 
 		// TODO: Invariant assertion for lower and upper bounds of p.
+		assertThat(p, is((4)));
 
 		// TODO: Invariant assertion for relationship between p and lineLength.
 

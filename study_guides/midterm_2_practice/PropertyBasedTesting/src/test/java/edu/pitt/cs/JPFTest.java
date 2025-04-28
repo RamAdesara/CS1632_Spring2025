@@ -12,12 +12,14 @@ public class JPFTest extends TestJPF {
 		}
 
 		// TODO: Initialize lineLength to test all lengths between 0 ~ 10.
+		int lineLength = Verify.getInt(0, 10);
 
 		Bus bus = new Bus();
 		bus.stop(lineLength);
 		int p = bus.getPassengerNum();
 
 		// TODO: Invariant assertion for lower and upper bounds of p.
+		
 
 		// TODO: Invariant assertion for relationship between p and lineLength.
 
